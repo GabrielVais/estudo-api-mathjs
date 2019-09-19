@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Api MathJS</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<h1>Ciclic</h1>
+		</div>
+	<div class="content">
+		<div class="simulador-title">
+			<h2>Simulador</h2>
+		</div>
+		<hr/>
+		<div class="simulador-inputs">
+		<div class="input-group">
+			<label>Nome:</label>
+			<input type="text" name="nome" placeholder="joao silva" id="nome">
+		</div>
+			<div class="input-group">
+			<label>Mensalidade:</label>
+			<input type="number" name="mensalidade" placeholder="947.12" id="mensalidade">
+		</div>
+	<div class="input-group">
+		<label>Taxa de Juros:</label>
+			<input type="number" name="mensalidade" placeholder="1%" id="taxaDeJuros">
+		</div>
+			<div class="input-group">
+			<label>Tempo:</label>
+			<input type="number" name="tempo de mensalidade" placeholder="1" id="tempo">
+		<select name="periodo">
+  			<option value="mes">Mês</option>
+  			<!-- <option value="ano">Anos</option> -->
+		</select>
+		</div>
+		<div class="input-button">
+			<input type="submit" name="simular" value="Simular" id="btnSimular" class="buttons"> 
+		</div>
+	</div>
+		</div>
+		<div class="output">
+			<div class="output-text">
+				<p>
+				Olá <strong id="nomeOutput">Nome</strong>
+				juntando <strong id="dinheiro">200</strong>
+				todo mês, você terá 
+				<strong id="result">12</strong>
+				em <strong id="tempoOutput">2</strong>
+			</p>
+				<input type="submit" name="simula" value="Simular Novamente" id="btnNovamente" class="buttons"> 
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
